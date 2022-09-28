@@ -11,6 +11,11 @@ public class AnswerGenerator {
     }
 
 
+
+    private static void doSomething(){
+        
+    }
+
     public static String giveAnswer(String question) {
         Preconditions.checkNotNull(Strings.emptyToNull(question), "Question cant be a null!");
         if (MAIN_QUESTION.toLowerCase().equalsIgnoreCase(question)) {
